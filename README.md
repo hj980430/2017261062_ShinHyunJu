@@ -7,7 +7,7 @@
 ##### 전역 사용자명/이메일 구성하기
 >git config - -global user.name “Your name”
 >
->>git config - -global user.email “Your email address”
+>git config - -global user.email “Your email address”
 
 ##### 저장소별 사용자명/이메일 구성하기 (해당 저장소 디렉터리로 이동후)
 >git config user.name “Your name”
@@ -25,9 +25,9 @@
 
 ##### 새로운 저장소 초기화하기
 >mkdir /path/newDir
-
+>
 >cd /path/newDir
-
+>
 >git init
 
 ##### 저장소 복제하기
@@ -41,7 +41,7 @@
 
 ##### 새로운 파일을 추가하거나 존재하는 파일 스테이징하고 커밋하기
 >git add <파일>
-
+>
 >git commit -m “<메시지>”
 
 ##### 파일의 일부를 스테이징하기
@@ -97,12 +97,10 @@
 
 ##### 브랜치를 옮기거나 브랜치명 변경하기
 >git checkout -m <기존 브랜치> <새로운 브랜치>
-
->-> <새로운 브랜치>가 존재하지 않을 경우
-
+>><새로운 브랜치>가 존재하지 않을 경우
+>
 >git checkout -M <기존 브랜치> <새로운 브랜치>
-
->-> 무조건 덮어쓰기
+>>-> 무조건 덮어쓰기
 
 ##### 다른 브랜치를 현재 브랜치로 합치기
 >git merge <브랜치>
