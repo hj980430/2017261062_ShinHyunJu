@@ -5,9 +5,8 @@
 ### 1. 설정과 초기화
 
 ##### 전역 사용자명/이메일 구성하기
->List
 >git config - -global user.name “Your name”
-
+>This is a blockqute.
 >git config - -global user.email “Your email address”
 
 ##### 저장소별 사용자명/이메일 구성하기 (해당 저장소 디렉터리로 이동후)
